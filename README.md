@@ -1,7 +1,5 @@
 # AppHost-Server v1.0.0-stable
-## Stable Release 1.0.0
 
-This release will run apps properly
 
 **Vulnerabilities:**
 * ~~Server starts functioning improperly when a client sends wrong HTTP request (i.e. connecting using telnet and sending custom headers).~~
