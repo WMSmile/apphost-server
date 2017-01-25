@@ -45,7 +45,7 @@ class AppHost(object):
                 header = "HTTP/1.0 302 Redirect\r\n"
         header += "Date: " + time.strftime("%a, %d %b %Y %H:%M:%S", time.localtime()) + "\r\n"
         header += "Server: AppHost 0.5\r\n"
-        #header += "Content-Type: \"{0}\"\r\n".format(contentType)
+        header += "Content-Type: {0}\r\n".format(contentType)
         for h in extra:
             header += "%s\r\n" % h
         header += "Connection: close\r\n\r\n"
