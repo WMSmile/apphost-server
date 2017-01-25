@@ -44,7 +44,7 @@ class ResponseHandler(object):
             if "Location" in h:
                 header = "HTTP/1.0 302 Redirect\r\n"
         header += "Date: " + time.strftime("%a, %d %b %Y %H:%M:%S", time.localtime()) + "\r\n"
-        header += "Server: AppHost 0.5\r\n"
+        header += "Server: AppHost-Server 1.0\r\n"
         #header += "Content-Type: {0}\r\n".format(contentType)
         for h in extra:
             header += "%s\r\n" % h
