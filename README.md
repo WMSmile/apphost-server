@@ -16,13 +16,17 @@ This release will run apps properly
 * customisable server
 * [git submodules](https://git-scm.com/book/nl/v1/Git-tools-Submodules) for addons/plugins or python libraries.
 
+**New:**
+* increase stability/security
+* more server customisability
+
 
 **Future:**
 * [git submodules](https://git-scm.com/book/nl/v1/Git-tools-Submodules) for dynamic webfiles.
 * HTTP/1.1
-* more server customisability
+
 * socket pools
-* increase stability/security
+
 
 **In a future far far away:**
 * HTTP/2.0
