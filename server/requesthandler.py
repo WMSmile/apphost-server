@@ -9,10 +9,10 @@ class RequestHandler():
             if not cookie.strip():
                 continue
             elif not '=' in cookie:
-                result['cookie_args'].append(cookie)
+                cookie_args.append(cookie)
             else:
                 k, v = cookie.split('=', 1)
-                result['cookie_kwargs'][k]=v
+                cookie_kwargs[k]=v
         return (cookie_args, cookie_kwargs)
 
 
